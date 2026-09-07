@@ -1,11 +1,8 @@
 name: QQ邮箱自动发送
 
 on:
-
- 
   schedule:
-    - cron: '* * * * *'
-
+    - cron: '*/5 * * * *'   # 每5分钟测试一次
   # 允许手动执行
   workflow_dispatch:
 
