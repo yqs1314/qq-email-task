@@ -6,7 +6,7 @@ on:
   # UTC 02:00
   # 中国大陆时间 10:00
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
 
   # 允许手动执行
   workflow_dispatch:
